@@ -173,19 +173,11 @@ body {
 /* ГОЛОВНА */
 
 .hero-section {
-    /*
-    background: rgb(2,0,36);  
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 40%);*/
-    
-   /* background: rgb(173,172,177);
-    background: linear-gradient(0deg, rgba(173,172,177,1) 0%);*/
-    background-image:url(../img/Img\ -hero.jpg);
-    background-image: linear-gradient(0deg, #2F303A);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-   /* background-color: var(--brand-color-backgraund); */
-     
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
+    background-color: var(--brand-color-backgraund);   
     padding-top: 200px;
     padding-bottom: 200px;
 }

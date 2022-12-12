@@ -173,14 +173,18 @@ body {
 /* ГОЛОВНА */
 
 .hero-section {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 40%);
-    background-image:url(../img/Img\ -hero.jpg);
+    /*
+    background: rgb(2,0,36);  
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 40%);*/
     
-    background-size: contain;
+   /* background: rgb(173,172,177);
+    background: linear-gradient(0deg, rgba(173,172,177,1) 0%);*/
+    background-image:url(../img/Img\ -hero.jpg);
+    background-image: linear-gradient(0deg, #2F303A);
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: var(--brand-color-backgraund);
+   /* background-color: var(--brand-color-backgraund); */
      
     padding-top: 200px;
     padding-bottom: 200px;
@@ -549,7 +553,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    fill: var(--brand-color-hero);
+    
 }
 
 .join {
@@ -571,8 +575,7 @@ body {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 0;
-    
+    padding-left: 0;   
 }
 
 .social-link-foot {
@@ -583,12 +586,12 @@ body {
     justify-content: center;
     border: none;
     border-radius: 50%;
-    background-color: var(--brand-color-bgd-icon-foot)
-    
+    background-color: var(--brand-color-bgd-icon-foot);
+    fill: var(--brand-color-hero);
 }
 
 .social-link-foot:hover {
-    background-color: var(--brand-color-link);
+    background-color: var(--brand-color-link);   
 }
 
 .social-link-foot:focus {
